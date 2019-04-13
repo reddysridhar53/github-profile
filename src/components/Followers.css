@@ -1,0 +1,12 @@
+.loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+}
+.userFollowers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 20px;
+}

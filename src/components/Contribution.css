@@ -1,0 +1,9 @@
+.githubCalendar {
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    flex: 1;
+    flex-direction: column;
+}

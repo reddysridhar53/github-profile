@@ -1,0 +1,67 @@
+.userCard {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    transition: 300ms all ease-in-out;
+}
+.userCard:hover {
+    cursor: pointer;
+    transform: translateY(-1px);
+    box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 0.2);
+}
+.userCard-link {
+    display: flex;
+    flex: 1;
+}
+.userCard-lhs {
+    display: flex;
+    max-width: 160px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 20px;
+    flex-direction: column;
+}
+.userCard-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.userCard-img img{
+    max-width: 100%;
+}
+.userCard-username {
+    color: #4c4c4c;
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 120px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.userCard-rhs {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0px 20px;
+}
+.userCard-row {
+    display: flex;
+    padding-bottom: 15px;
+    color: #4c4c4c;
+    font-size: 16px;
+}
+.userCard-row:last-child {
+    padding: 0;
+}
+.userCard-row .userCard-col:first-child {
+    font-weight: 600;
+}
+.userCard-row .userCard-col:last-child {
+    font-weight: 500;
+    margin-left: 10px;
+}

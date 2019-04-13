@@ -1,0 +1,24 @@
+
+.userDetails-container {
+    max-width: 1080px;
+    width: 100%;
+    margin: 70px auto 0;
+    padding: 50px 0;
+}
+.userDetails-content-primary,
+.userDetails-content-secondary {
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 2px 3px 4px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+.userDetails-content-secondary {
+    padding: 0;
+}
+.loading-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+}
